@@ -1,0 +1,182 @@
+/* CSS Document */
+
+/* --------------
+
+
+
+----------------- */
+
+
+
+
+
+/* BANNER */
+
+#avbanner {
+
+	clear:both;
+
+	
+
+	margin:0 auto;
+
+	
+
+	position:relative;
+
+	
+
+}
+
+
+
+#avbanner .learn-more-btn {
+
+	position: absolute;
+
+	width: 222px;
+
+	height: 52px;
+
+	top: 208px;
+
+	right: 10px;
+
+}
+
+
+
+#avrotate {
+
+	
+
+	/*width:1024px;
+
+	height:500px;*/
+z-index:2;
+	
+
+}
+
+#avbanner h3{
+
+margin-top:5px!important;
+
+text-align:center!important;
+
+}
+
+
+
+
+
+
+
+
+
+#avbannernav {
+
+	position:absolute;
+
+	bottom:20px;
+
+	z-index: 15;
+
+left: 20px;
+
+	margin:0;
+
+	padding:0;
+
+	list-style:none;
+
+}
+
+#avbannernav li {
+
+	float:left;
+
+	margin:0 9px 0 0;
+
+}
+
+#avbannernav li a {
+
+	display:block;
+
+	width:15px;
+
+	height:8px;
+
+	text-decoration:none;
+
+	background:#d8d8d8;
+
+	-webkit-border-radius: 2px;
+
+	-moz-border-radius: 2px;
+
+	border-radius: 2px;
+
+}
+
+#avbannernav li.activeSlide a { background:#9f9f9f; }
+
+#avbannernav li a:hover { background:#A91F17; }
+
+
+
+
+@media screen and (max-width: 650px),
+@media screen and (max-width: 480px),
+@media screen and (max-width: 320px),
+@media screen and (max-width: 240px) {
+	#avrotate {
+		width: 100%!important;
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+	#avrotate .slide{ width:100%!important}
+}
+@media screen and (max-width: 650px) {
+#avrotate .slide{ width:100%!important; }
+
+}
+
+
+@media screen and (max-width: 480px) {
+#avrotate .slide{ width:100%!important; }
+
+}
+
+
+@media screen and (max-width: 320px) {
+#avrotate .slide{ width:100%!important; }
+
+}
+
+
+@media screen and (max-width: 240px) {
+#avrotate .slide{ width:100%!important; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
